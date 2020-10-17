@@ -1,0 +1,55 @@
+{
+  "name": "slider_app",
+  "version": "1.0.0",
+  "description": "slider on react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgorKa1994/Slider.git"
+  },
+  "keywords": [
+    "slider",
+    "react",
+    "js",
+    "webpack"
+  ],
+  "author": "EgorKa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgorKa1994/Slider/issues"
+  },
+  "homepage": "https://github.com/EgorKa1994/Slider#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "react-devtools": "^4.8.2",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^2.3.8",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
