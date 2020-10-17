@@ -2,9 +2,9 @@
 
 ## Instructions
 
--Clone the repo
--Run npm install
--Run one of Scripts
+-Clone the repo<br />
+-Run npm install<br />
+-Run one of Scripts listed below<br />
 
 ## Available Scripts
 
